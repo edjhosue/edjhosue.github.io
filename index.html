@@ -1,77 +1,75 @@
-<! doctype html>
-<html lang = 'es'>
-<cabeza>
-   <meta conjunto de caracteres = 'utf-8'>
-   <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
-   <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-   <link rel = "stylesheet" href = "CSS / styles.css">
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="CSS/styles.css">
 
-   <title> Reclutadores </title>
+   <title>Reclutadores</title>
 
-   <estilo>
+   <style>
    #contenedor {
-  ancho: 700px;
+  width: 700px;
 }
 #cabecera {
 }
 #menu {
-  flotador izquierdo;
-  ancho: 225px;
+  float: left;
+  width: 225px;
 }
 #contenido {
-  flotador izquierdo;
-  ancho: 470px;
+  float: left;
+  width: 470px;
 }
-#tarta {
-  Limpia los dos;
+#pie {
+  clear: both;
 }
-** // prueba
+**// prueba
 .contenedor-responsive {
-  posición: relativa;
-  fondo acolchado: 56,25%;
+  position: relative;
+  padding-bottom: 56.25%;
   padding-top: 30px;
-  altura: 0;
-  desbordamiento: oculto;
+  height: 0;
+  overflow: hidden;
 }
-.iframe sensible al contenido,
-.objeto contenedor-sensible,
+.contenedor-responsive iframe,
+.contenedor-responsive object,
 .contenedor-responsive embed {
-  posición: absoluta;
-  arriba: 0;
-  izquierda: 0;
-  ancho: 100%;
-  altura: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 </style>
 
 </head>
-<cuerpo>
+<body>
 
-<div id = "contenedor">
-  <div id = "cabecera">
+<div id="contenedor">
+  <div id="cabecera">
   Cabecera
   </div>
  
-  <div id = "menú">
-  <div id = 'cssmenu'>
+  <div id="menu">
+  <div id='cssmenu'>
 Izquierda
 </div>
   
 
   </div>
  
-  <div id = "contenido" class = "contenedor-responsive">
-<iframe frameborder = "0" allowfullscreen = "" src = "http://blogdeprueba.blogspot.mx/" width = "100px" height = "600px" id = "theIframe" name = "emilgo"> Texto para cuando el navegador no conoce la etiqueta iframe </iframe>
+  <div id="contenido" class="contenedor-responsive">
+<iframe frameborder="0" allowfullscreen="" src="http://blogdeprueba.blogspot.mx/" width="100px" height="600px" id="theIframe" name="emilgo" >Texto para cuando el navegador no conoce la etiqueta iframe</iframe>
   </div>
  
-  <div id = "pie">
-  Tarta
+  <div id="pie">
+  Pie
   </div>
 </div>
 
 
 </body>
 <html>
-
-
